@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Pokemon</title>
+</head>
+<body class="text-bg-warning p-3">
+
+  <header class="p-5">
+    <div class="container">
+      <a href="#">
+        <img class="rounded mx-auto d-block" src="./images/pokemon_logo.svg" alt="pokemon" width="610" height="225">
+      </a>
+    </div>
+  </header>
+
+  <main class="p-5">
+    <div class="container">
+      <div class="d-flex justify-content-between">
+        <div class="me-3 w-25">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Gross</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+          </select>
+        </div>
+
+        <div class="input-group flex-nowrap me-3 w-25">
+          <input type="text" class="form-control" placeholder="Search" aria-label="Username">
+        </div>
+
+
+        <div class="me-3 w-25">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Aa-Zz</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+          </select>
+        </div>
+
+        <button type="button" class="btn btn-light me-3 w-25">Button</button>
+      </div>
+
+      <ul class="pokemon__list d-flex flex-wrap justify-content-between list-unstyled m-0 mt-5 p-0">
+      </ul>
+    </div>
+  </main>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  <!-- <script src="./js/masalalar.js"></script> -->
+  <script src="./js/pokemons.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>
